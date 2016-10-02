@@ -1,13 +1,10 @@
-## These functions cache the inverse of a matrix.
+## Week3 
 
-## Defines a matrix object with cachable inverse value
-## Defines a Matrix object which can cache its inverse
-## This function creates a special "matrix" object that can cache its inverse.
-## Actually a list containing a function to
-## 1. set the value of the matrix
-## 2. get the value of the matrix
-## 3. set the inverse of the matrix
-## 4. get the inverse of the matrix
+## ProgrammingAssignment2
+
+## Defines a matrix with cachable inverse value
+## Defines a Matrix which can cache its inverse
+## This function creates a special "matrix" that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         inverse <- NULL
@@ -24,8 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Takes a cache Matrix object, checks if the inverse has already been
-## computed, calculates if it has not, and then returns the inverse
+## Takes a cache Matrix, checks if the inverse has already been
+## computed, calculates if it has not, and then returns the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
