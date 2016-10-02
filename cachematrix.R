@@ -1,5 +1,6 @@
 ## Week3 
-
+## XueyaoHuang
+## Time:2016-10-02
 ## ProgrammingAssignment2
 
 ## Defines a matrix with cachable inverse value
@@ -36,3 +37,5 @@ cacheSolve <- function(x, ...) {
         x$setsolve(inverse)
         inverse
 }
+                
+        
